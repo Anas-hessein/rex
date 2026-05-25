@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://tq6b3iod18q7"]
+
+[ext_resource type="FontFile" uid="uid://cjev0mfkpxfqs" path="res://assets/fonts/retro.ttf" id="1_l0vrs"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2adlr"]
+bg_color = Color(0.1507417, 0.7232396, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wpy2q"]
+bg_color = Color(1, 0.33876058, 0.3140268, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wqmhf"]
+bg_color = Color(0.60374016, 0.6349472, 0.038973972, 1)
+
+[node name="restart" type="CanvasLayer" unique_id=556278852]
+
+[node name="Button" type="Button" parent="." unique_id=892958035]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -125.0
+offset_top = -27.5
+offset_right = 125.0
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_l0vrs")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_2adlr")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wpy2q")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wqmhf")
+text = "RESTART"

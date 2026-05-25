@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://c4f557b3ohsww"]
+
+[ext_resource type="Script" uid="uid://bu7uqn00w5wys" path="res://scripts/main.gd" id="1_4vsvb"]
+[ext_resource type="PackedScene" uid="uid://b73a2u7f72222" path="res://sence/bg.tscn" id="1_77o7s"]
+[ext_resource type="PackedScene" uid="uid://w4tuyxd803qg" path="res://sence/ground.tscn" id="2_4vsvb"]
+[ext_resource type="PackedScene" uid="uid://b4hpd6el2cv6" path="res://sence/dino.tscn" id="3_abhqy"]
+[ext_resource type="PackedScene" uid="uid://cj005f50htuil" path="res://sence/hud.tscn" id="5_rfdxf"]
+[ext_resource type="PackedScene" uid="uid://tq6b3iod18q7" path="res://sence/restart.tscn" id="6_flnmi"]
+
+[node name="Main" type="Node" unique_id=917628617]
+script = ExtResource("1_4vsvb")
+
+[node name="BG" parent="." unique_id=827282322 instance=ExtResource("1_77o7s")]
+
+[node name="ground" parent="." unique_id=657346711 instance=ExtResource("2_4vsvb")]
+
+[node name="Dino" parent="." unique_id=746496972 instance=ExtResource("3_abhqy")]
+position = Vector2(137, 486)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1057595742]
+position = Vector2(576, 324)
+
+[node name="HUD" parent="." unique_id=1506584379 instance=ExtResource("5_rfdxf")]
+
+[node name="restart" parent="." unique_id=556278852 instance=ExtResource("6_flnmi")]
+process_mode = 2
