@@ -24,7 +24,6 @@ var MAX_DIFFICULTY : int = 2
 var high_score : int
 
 func _ready() -> void:
-	# ✅ الحل الأساسي: الـ viewport مش الـ window
 	screen_size = Vector2i(get_viewport().get_visible_rect().size)
 	ground_height = $ground.get_node("Sprite2D").texture.get_height()
 	$restart.get_node("Button").pressed.connect(new_game)
@@ -52,7 +51,6 @@ func new_game():
 
 func _process(delta: float) -> void:
 	if game_running:
-		# ✅ نطبع السرعة على 60 FPS كـ baseline
 		var delta_scale = delta * 60.0
 		
 		speed = START_SPEED + score / SPEED_MODIFIER
