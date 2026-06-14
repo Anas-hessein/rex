@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="rex"
-run/main_scene="uid://b73a2u7f72222"
+run/main_scene="uid://c4f557b3ohsww"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
 
 [editor_plugins]
 

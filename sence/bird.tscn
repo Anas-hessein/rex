@@ -52,4 +52,4 @@ centered = false
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=598433575]
 position = Vector2(19, 15)
-polygon = PackedVector2Array(9.5, 11.5, 4.5, 13.25, -1, 10.5, -8.25, 3.75, -11.5, 7.75, -16.25, 8.25, -18, 5.75, -19.5, 2.5, -18, -2.25, -8, -6, -0.25, -10.75, 9.5, -6.5, 13, -5.75, 12.25, 3.75)
+polygon = PackedVector2Array(7, 5, 3, 7, -1, 7, -5, 3, -11.5, 7.75, -15, -3, -5, -5, 1, -9, 7, -5, 9, -1, 9, 3)

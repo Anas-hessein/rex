@@ -12,6 +12,11 @@
 texture = ExtResource("1_dc0nn")
 centered = false
 
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=304086364]
+position = Vector2(1153, 0)
+texture = ExtResource("1_dc0nn")
+centered = false
+
 [node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=2127235786]
 motion_scale = Vector2(0.6, 0.6)
 motion_mirroring = Vector2(1152, 0)

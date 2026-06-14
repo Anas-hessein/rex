@@ -7,7 +7,7 @@ const JUMP_SPEED : int = -1800
 func _physics_process(delta):
 	velocity.y += GRAVITY * delta
 	if is_on_floor():
-		if not get_parent().game_runing:
+		if not get_parent().game_running:
 			$Sprite.play("idle")
 		else: 
 			$RC.disabled = false
